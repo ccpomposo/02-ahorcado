@@ -25,7 +25,6 @@ public class Ahorcado {
         Random random = new Random();
         int pos = (int)Math.round(random.nextDouble() * Ahorcado.PALABRAS.length);
         this.palabra = PALABRAS[pos];
-        System.out.println(pos);
         this.palabrita = new char[this.palabra.length()];
         for (int i = 0; i < palabrita.length; i++) {
             this.palabrita[i] = '-';
